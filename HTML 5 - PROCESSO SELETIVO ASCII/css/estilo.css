@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+		/* Formatacao do Body/Interface/Header */
+		
+		body {
+			background-color: white;
+			}
+		
+		p {
+			text-align: justify;
+			text-indent: 20px;
+		}
+			
+		header#cabecalho {
+			height: 90px;
+			 background: linear-gradient(to right, #007788  0%, #00d5d5 100%);
+		}
+		
+		
+		h1 {
+			font-family: Century Gothic;
+			font-size: 19pt;
+			color: white;
+
+			}
+			
+		div#interface{
+			width : 1920px;
+			background-color: #ffffff;
+			margin: -20px 0px 0px -10px;
+		}
+		
+		footer#rodape {
+			height: 60px;
+			background: linear-gradient(to right, #007788  0%, #00d5d5 100%);
+		}
+		
+			
+			
+	/* Formatacao do menu */
+	
+			nav#menu {
+				display: block;
+			}
+
+		
+			nav#menu ul{
+				list-style: none;
+				position: absolute;
+				top: 0px;
+				left: 1400px;
+			}
+			
+			
+			nav#menu li{
+				font-size: 19pt;
+				display: inline-block;ll
+				padding: 0px;
+				margin: 10px;
+				transition: background-color 1s;
+			}
+			
+			
+			nav#menu li:hover{
+				background-color: #606060;
+			}
+			
+			
+			nav#menu a{
+				color: #ffffff;
+				text-decoration: none;
+			}
+			
+			
+			nav#menu a:hover{
+				color: #000000;
+			}
+			
+		
+		/* Formatacao da interface */
+		
+		
+				div#conteudo {
+					display: table;
+				}
+				div#conteudo2 {
+					display: table;
+				}
+				
+				div#texto {
+					font-family: ;
+					position:relative;
+					padding-left:20px;
+					padding-top: 0px;
+				}
+				div#imagem img:hover{
+					
+					
+				}
+				
+				div#imagem2 img:hover{
+					-moz-transform: scale(1.5);
+					-webkit-transform: scale(1.5);
+					transform: scale(1.5);
+				}
+				
+				div#imagem {
+					display: table-cell;
+					float: left;
+					padding-top: 100px;
+					padding-left:300px;
+					max-width: 100%;
+					-moz-transition: all 2s;
+					-webkit-transition: all 2s;
+					transition: all 2s;
+					
+				}
+				div#imagem2 {
+					display: table-cell;
+					float:left;
+					padding-top: 100px;
+					padding-left:300px;
+					-moz-transition: all 2s;
+					-webkit-transition: all 2s;
+					transition: all 2s;
+					max-width: 100%;
+					
+				}
+				
+				div#texto1 {
+					font-family: Century Gothic;
+					font-size: 14pt;
+					display: table-cell;
+					float: left;
+					width: 1000px;
+					padding-top: 50px;
+					padding-left: 20px;
+				}
+				
+				div#texto2 {
+				font-family: Century Gothic;
+					font-size: 14pt;
+					display: table-cell;
+					float: left;
+					width: 1000px;
+					padding-top: 50px;
+					padding-left: 20px;
+				}
+				div#texto3 {
+				font-family: Century Gothic;
+				font-size: 20pt;
+				}
+				div#texto4 {
+				font-family: Century Gothic;
+				font-size: 18pt;
+				margin-left: 480px;
+				width:1000px;
+				}
+				
+		/* Formatacao de Imagem */
+				
+				img#eu {
+					box-shadow: 2px 2px 4px gray;
+					-moz-transition: all 1s;
+					-webkit-transition: all 1s;
+					transition: all 1s;
+				}
+				
+				img#eu:hover{
+					-moz-transform: scale(1.5);
+					-webkit-transform: scale(1.5);
+					transform: scale(1.5);
+				}
+				
+				img#habilidades {
+					box-shadow: 2px 2px 4px black;
+					-moz-transition: all 1s;
+					-webkit-transition: all 1s;
+					transition: all 1s;
+				}
+				
+				img#habilidades:hover {
+					-moz-transform: scale(1.5);
+					-webkit-transform: scale(1.5);
+					transform: scale(1.5);
+				}
+				
+				
+		/* Formatacao Rodape*/
+				
+				footer#rodape{
+					position: absolute;
+					bottom: 0px;
+					width: 100%;
+				}
+				
+				
+		/* Formatacao Cores Icones*/
+				
+				center#coracao i{color:rgb(167, 15, 15);}
